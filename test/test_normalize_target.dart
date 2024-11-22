@@ -1,7 +1,7 @@
 import 'package:test/test.dart';
 
-import 'package:sip_ua/src/uri.dart';
-import 'package:sip_ua/src/utils.dart' as Utils;
+import 'package:sip_ua_livekit_webrtc/src/uri.dart';
+import 'package:sip_ua_livekit_webrtc/src/utils.dart' as Utils;
 
 List<void Function()> testFunctions = <void Function()>[
   () => test('NormalizeTarget: valid targets', () {

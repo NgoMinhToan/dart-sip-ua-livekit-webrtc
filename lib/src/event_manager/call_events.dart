@@ -1,4 +1,4 @@
-import 'package:flutter_webrtc/flutter_webrtc.dart';
+import 'package:flutter_livekit_webrtc/flutter_livekit_webrtc.dart';
 
 import '../rtc_session.dart';
 import '../sip_message.dart';

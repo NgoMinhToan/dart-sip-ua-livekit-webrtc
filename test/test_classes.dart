@@ -1,7 +1,7 @@
 import 'package:test/test.dart';
 
-import 'package:sip_ua/src/name_addr_header.dart';
-import 'package:sip_ua/src/uri.dart';
+import 'package:sip_ua_livekit_webrtc/src/name_addr_header.dart';
+import 'package:sip_ua_livekit_webrtc/src/uri.dart';
 
 List<void Function()> testFunctions = <void Function()>[
   () => test('Class: URI', () {

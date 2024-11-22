@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:flutter_webrtc/flutter_webrtc.dart';
+import 'package:flutter_livekit_webrtc/flutter_livekit_webrtc.dart';
 import 'package:logger/logger.dart';
 
-import 'package:sip_ua/sip_ua.dart';
-import 'package:sip_ua/src/map_helper.dart';
-import 'package:sip_ua/src/transports/socket_interface.dart';
-import 'package:sip_ua/src/transports/tcp_socket.dart';
+import 'package:sip_ua_livekit_webrtc/sip_ua_livekit_webrtc.dart';
+import 'package:sip_ua_livekit_webrtc/src/map_helper.dart';
+import 'package:sip_ua_livekit_webrtc/src/transports/socket_interface.dart';
+import 'package:sip_ua_livekit_webrtc/src/transports/tcp_socket.dart';
 import 'config.dart';
 import 'constants.dart' as DartSIP_C;
 import 'event_manager/event_manager.dart';

@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:sip_ua/src/event_manager/events.dart';
-import 'package:sip_ua/src/transport_constants.dart';
-import 'package:sip_ua/src/transports/socket_interface.dart';
-import 'package:sip_ua/src/transports/tcp_socket.dart';
+import 'package:sip_ua_livekit_webrtc/src/event_manager/events.dart';
+import 'package:sip_ua_livekit_webrtc/src/transport_constants.dart';
+import 'package:sip_ua_livekit_webrtc/src/transports/socket_interface.dart';
+import 'package:sip_ua_livekit_webrtc/src/transports/tcp_socket.dart';
 import 'exceptions.dart' as Exceptions;
 import 'logger.dart';
 import 'stack_trace_nj.dart';

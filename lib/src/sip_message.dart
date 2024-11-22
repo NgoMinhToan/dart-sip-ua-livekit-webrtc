@@ -2,7 +2,7 @@ import 'dart:convert' show utf8;
 
 import 'package:sdp_transform/sdp_transform.dart' as sdp_transform;
 
-import 'package:sip_ua/src/transactions/transaction_base.dart';
+import 'package:sip_ua_livekit_webrtc/src/transactions/transaction_base.dart';
 import 'constants.dart' as DartSIP_C;
 import 'constants.dart';
 import 'data.dart';

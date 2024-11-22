@@ -3,10 +3,10 @@ import 'dart:io';
 
 import 'package:test/test.dart';
 
-import 'package:sip_ua/src/event_manager/events.dart';
-import 'package:sip_ua/src/socket_transport.dart';
-import 'package:sip_ua/src/transports/socket_interface.dart';
-import 'package:sip_ua/src/transports/web_socket.dart';
+import 'package:sip_ua_livekit_webrtc/src/event_manager/events.dart';
+import 'package:sip_ua_livekit_webrtc/src/socket_transport.dart';
+import 'package:sip_ua_livekit_webrtc/src/transports/socket_interface.dart';
+import 'package:sip_ua_livekit_webrtc/src/transports/web_socket.dart';
 
 List<void Function()> testFunctions = <void Function()>[
   () => test(' WebSocket: EchoTest', () async {

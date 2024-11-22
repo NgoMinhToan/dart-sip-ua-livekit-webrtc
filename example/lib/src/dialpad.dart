@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_webrtc/flutter_webrtc.dart';
+import 'package:flutter_livekit_webrtc/flutter_livekit_webrtc.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sip_ua/sip_ua.dart';
+import 'package:sip_ua_livekit_webrtc/sip_ua_livekit_webrtc.dart';
 
 import 'widgets/action_button.dart';
 

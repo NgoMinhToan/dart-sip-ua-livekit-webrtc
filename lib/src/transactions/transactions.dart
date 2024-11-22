@@ -1,4 +1,4 @@
-import 'package:sip_ua/src/sip_message.dart';
+import 'package:sip_ua_livekit_webrtc/src/sip_message.dart';
 import '../constants.dart';
 import '../timers.dart';
 import 'invite_server.dart';

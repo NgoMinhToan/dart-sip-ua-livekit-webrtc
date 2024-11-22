@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:sip_ua/src/socket_transport.dart';
+import 'package:sip_ua_livekit_webrtc/src/socket_transport.dart';
 import 'constants.dart' as DartSIP_C;
 import 'constants.dart';
 import 'event_manager/event_manager.dart';

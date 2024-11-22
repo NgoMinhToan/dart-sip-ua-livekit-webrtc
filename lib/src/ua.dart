@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:sip_ua/src/transport_type.dart';
-import 'package:sip_ua/src/transports/socket_interface.dart';
+import 'package:sip_ua_livekit_webrtc/src/transport_type.dart';
+import 'package:sip_ua_livekit_webrtc/src/transports/socket_interface.dart';
 import 'config.dart' as config;
 import 'config.dart';
 import 'constants.dart' as DartSIP_C;

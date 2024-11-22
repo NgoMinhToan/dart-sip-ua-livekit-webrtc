@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart'
     show debugDefaultTargetPlatformOverride;
 import 'package:flutter/material.dart';
-import 'package:flutter_webrtc/flutter_webrtc.dart';
-import 'package:sip_ua/sip_ua.dart';
+import 'package:flutter_livekit_webrtc/flutter_livekit_webrtc.dart';
+import 'package:sip_ua_livekit_webrtc/sip_ua_livekit_webrtc.dart';
 
 import 'src/about.dart';
 import 'src/callscreen.dart';

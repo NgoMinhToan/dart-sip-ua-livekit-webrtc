@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sip_ua/sip_ua.dart';
+import 'package:sip_ua_livekit_webrtc/sip_ua_livekit_webrtc.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
 class RegisterWidget extends StatefulWidget {

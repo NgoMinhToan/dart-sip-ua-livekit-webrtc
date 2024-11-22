@@ -1,5 +1,5 @@
-import 'package:sip_ua/sip_ua.dart';
-import 'package:sip_ua/src/transports/socket_interface.dart';
+import 'package:sip_ua_livekit_webrtc/sip_ua_livekit_webrtc.dart';
+import 'package:sip_ua_livekit_webrtc/src/transports/socket_interface.dart';
 import '../grammar.dart';
 import '../logger.dart';
 
