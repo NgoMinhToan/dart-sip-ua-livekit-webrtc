@@ -25,7 +25,13 @@ dependencies:
     path: ../
   shared_preferences: ^2.2.0
   permission_handler: ^11.1.0
-  flutter_webrtc: ^0.10.4
+  # flutter_webrtc: ^0.10.4
+  flutter_webrtc: 
+    path: /Users/ngominhtoan/Desktop/pub.dev/flutter_webrtc-0.10.8
+  flutter_webrtc:
+    git: 
+      url: https://github.com/NgoMinhToan/flutter-webrtc-livekit.git
+      ref: livekit-version-0.10.8
 
 dev_dependencies:
   flutter_test:
