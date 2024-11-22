@@ -1,8 +1,11 @@
+import 'package:dart_sip_ua_example/src/theme_provider.dart';
 import 'package:flutter/foundation.dart'
     show debugDefaultTargetPlatformOverride;
 import 'package:flutter/material.dart';
 import 'package:flutter_livekit_webrtc/flutter_livekit_webrtc.dart';
 import 'package:sip_ua_livekit_webrtc/sip_ua_livekit_webrtc.dart';
+import 'package:logger/logger.dart';
+import 'package:provider/provider.dart';
 
 import 'src/about.dart';
 import 'src/callscreen.dart';
@@ -10,10 +13,16 @@ import 'src/dialpad.dart';
 import 'src/register.dart';
 
 void main() {
+  Logger.level = Level.warning;
   if (WebRTC.platformIsDesktop) {
     debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
   }
-  runApp(MyApp());
+  runApp(
+    MultiProvider(
+      providers: [ChangeNotifierProvider(create: (_) => ThemeProvider())],
+      child: MyApp(),
+    ),
+  );
 }
 
 typedef PageContentBuilder = Widget Function(
@@ -53,22 +62,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        fontFamily: 'Roboto',
-        inputDecorationTheme: InputDecorationTheme(
-          hintStyle: TextStyle(color: Colors.grey),
-          contentPadding: EdgeInsets.all(10.0),
-          border: UnderlineInputBorder(
-              borderSide: BorderSide(color: Colors.black12)),
-        ),
-        elevatedButtonTheme: ElevatedButtonThemeData(
-          style: ElevatedButton.styleFrom(
-            padding: const EdgeInsets.all(16),
-            textStyle: TextStyle(fontSize: 18),
-          ),
-        ),
-      ),
+      theme: Provider.of<ThemeProvider>(context).currentTheme,
       initialRoute: '/',
       onGenerateRoute: _onGenerateRoute,
     );

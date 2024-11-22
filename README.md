@@ -19,7 +19,7 @@ A dart-lang version of the SIP UA stack, ported from [JsSIP](https://github.com/
 - [X] Web
 - [X] macOS
 - [X] Windows
-- [ ] Linux
+- [X] Linux
 - [ ] Fuchsia
 
 ## Install
@@ -37,7 +37,7 @@ A dart-lang version of the SIP UA stack, ported from [JsSIP](https://github.com/
 -keep class io.flutter.plugins.**  { *; }
 
 -keep class com.cloudwebrtc.webrtc.** {*;}
--keep class org.webrtc.** {*;}
+-keep class livekit.org.webrtc.** {*;}
 ```
 
 ## Quickstart
