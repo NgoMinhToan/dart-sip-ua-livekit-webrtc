@@ -21,14 +21,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  sip_ua_livekit_webrtc:
+  sip_ua:
     path: ../
   shared_preferences: ^2.2.0
   permission_handler: ^11.1.0
   flutter_webrtc:
     git: 
       url: https://github.com/NgoMinhToan/flutter-webrtc-livekit.git
-      ref: deps_git-livekit_0.10.8
+      ref: deps_git-livekit_0.12.1+hotfix.3
 
   provider: 6.1.2
   logger: ^2.4.0
