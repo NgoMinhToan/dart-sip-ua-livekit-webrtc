@@ -25,7 +25,7 @@ dependencies:
     path: ../
   shared_preferences: ^2.2.0
   permission_handler: ^11.1.0
-  flutter_livekit_webrtc: ^0.10.8
+  flutter_livekit_webrtc: ^0.12.1
   provider: 6.1.2
   logger: ^2.4.0
 
